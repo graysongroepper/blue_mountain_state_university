@@ -30,42 +30,7 @@
 
 <body>
 
-<!-- For more info about the navbar, see:
-    https://getbootstrap.com/docs/4.0/components/navbar/
-    --->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a class="navbar-brand" href="index.html">Blue Mountain State University Basketball</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-        <ul class="navbar-nav mr-auto">
-
-          <li class="nav-item">
-            <a class="nav-link" href="schedule.html">Schedule</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="roster.html">Roster</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="stats.html">Stats </a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="all_time_players.html"> All-Time Players</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="information.html"> BMSU Information</a>
-          </li>
-        </ul>
-
-      </div>
-    </nav>
+<?php include '../resources/navigation.php'; ?>
 
   <h1>2019-20 BMSU Basketball Schedule</h1>
 <ul>
@@ -86,12 +51,7 @@
 
 </body>
 
+<?php include '../resources/footer.php'; ?>
 
-<footer>
-
- &copy; Copyright 2019, Blue Mountain State University
-
-
-</footer>
 </body>
 </html>

@@ -44,48 +44,9 @@
 <body>
 
 
+<?php include '../resources/navigation.php'; ?>
 
 
-<!-- For more info about the navbar, see:
-    https://getbootstrap.com/docs/4.0/components/navbar/
-    --->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a class="navbar-brand" href="index.html">Blue Mountain State University Basketball</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-        <ul class="navbar-nav mr-auto">
-          
-
-          <li class="nav-item">
-            <a class="nav-link" href="schedule.html">Schedule</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="roster.html">Roster</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="stats.html">Stats </a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="all_time_players.html"> All-Time Players</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="information.html"> BMSU Information</a>
-          </li>
-
-
-          </li>
-        </ul>
-
-      </div>
-    </nav>
 <div class="container">
   <br>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -182,11 +143,8 @@
 </div><br>
 
 
-<footer>
+<?php include '../resources/footer.php'; ?>
 
-  © Copyright 2019, Blue Mountain State University
-
-</footer>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
